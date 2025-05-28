@@ -5,6 +5,9 @@
     if not game:IsLoaded() then
         game.Loaded:Wait()
     end
+
+print("LOADING")
+
     local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
     local Window = Rayfield:CreateWindow({
